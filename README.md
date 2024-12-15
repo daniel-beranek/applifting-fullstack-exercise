@@ -11,6 +11,8 @@
 - Testing: Jest + Playwright
 - CI/CD: Husky, GitHub, Vercel
 - Package manager: bun - best one :)
+- Validation: Zod
+- Monitoring: Sentry
 
 ## Backend
 
