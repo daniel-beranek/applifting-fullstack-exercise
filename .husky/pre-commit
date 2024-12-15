@@ -1,0 +1,1 @@
+echo 'Running pre-commit' && pretty-quick --staged
