@@ -1,0 +1,13 @@
+name: renovate-bot
+
+on:
+  schedule:
+    - cron: '15 2 * * 4'
+
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Renovate Bot GitHub Action
+        uses: renovatebot/github-action@v41.0.6
