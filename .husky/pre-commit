@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# This utility's configuration resides in lint-staged.config.mjs file.
+./node_modules/.bin/lint-staged
