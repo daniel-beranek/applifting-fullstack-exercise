@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# This utility's configuration resides in commitlint.config.mjs file.
+./node_modules/.bin/commitlint < "$1"
