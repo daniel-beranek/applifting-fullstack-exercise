@@ -1,4 +1,4 @@
 const MyArticlesPage = () => {
-  return <div>02-1 Admin - Article List testing signed commitsssssss</div>
+  return <div>02-1 Admin - Article List</div>
 }
 export default MyArticlesPage
