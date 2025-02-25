@@ -15,7 +15,10 @@
     "incremental": true,
     "paths": {
       "@features/*": ["./src/features/*"],
+      "@api/*": ["./src/lib/api/*"],
+      "@utils/*": ["./src/lib/utils/*"],
       "@components/*": ["./src/lib/components/*"],
+      "@styles/*": ["./src/styles/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

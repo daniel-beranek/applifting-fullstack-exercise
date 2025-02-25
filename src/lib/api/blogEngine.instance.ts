@@ -1,8 +1,8 @@
 import axios from 'axios'
 import type { AxiosInstance, AxiosResponse } from 'axios'
-import { validateZod } from '@components/lib/api/blogEngine.schema'
+import { validateZod } from '@api/blogEngine.schema'
 import { ZodSchema } from 'zod'
-import { getServerEnvVar } from '@components/lib/utils/getServerEnvVar'
+import { getServerEnvVar } from '@utils/getServerEnvVar'
 
 declare module 'axios' {
   interface AxiosRequestConfig {
