@@ -1,11 +1,11 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
-import blogEngineInstance from '@components/lib/api/blogEngine.instance'
+import blogEngineInstance from '@api/blogEngine.instance'
 import {
   ArticleDetail,
   articleDetailSchema,
   ArticleList,
   articleListSchema,
-} from '@components/lib/api/blogEngine.schema'
+} from '@api/blogEngine.schema'
 
 export const getStaticPaths: GetStaticPaths<{
   articleId: string

@@ -1,11 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
-import blogEngineInstance from '@components/lib/api/blogEngine.instance'
+import blogEngineInstance from '@api/blogEngine.instance'
 import { useRouter } from 'next/router'
-import {
-  ArticleList,
-  articleListSchema,
-} from '@components/lib/api/blogEngine.schema'
-import { getServerEnvVar } from '@components/lib/utils/getServerEnvVar'
+import { ArticleList, articleListSchema } from '@api/blogEngine.schema'
+import { getServerEnvVar } from '@utils/getServerEnvVar'
 
 export const getStaticPaths: GetStaticPaths<{
   pageNumber: string
